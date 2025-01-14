@@ -1,0 +1,15 @@
+:root 
+{
+    --todo-blue: #14AAF5;
+    --todo-purple: #AB5DE6;
+    --todo-green: #2CC6AB;
+    --todo-orange: #FF9B00;
+    --todo-pink: #EC4A9D;
+    --todo-lightgreen: #A3D116;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
