@@ -7,6 +7,7 @@
     --todo-pink: #EC4A9D;
     --todo-lightgreen: #A3D116;
     --todo-grey: #F6F8F9;
+    --todo-darkgrey: #C4CBD0;
 }
 
 *
@@ -40,5 +41,45 @@
 
 #site_main
 {
-    background-color: var(--todo-grey);
+    background-color:#EC4A9D;
+    padding: 5rem;
+}
+
+#container
+{
+    background-color: white;
+    width: 90%
+;
+    margin: auto;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+#top_container
+{
+    padding: 1rem 4rem
+
+}
+
+.button
+{
+    width: 4rem;
+    padding: 0.4rem 0.8rem 0.4rem;
+    border-radius: 0.3rem;
+}
+
+#add_task
+{
+    background-color: var(--todo-blue);
+    color: white;
+    margin-bottom: 10px;
+}
+
+#add_section
+{
+    width: 5rem;
+    background-color: white;
+    color: var(--todo-darkgrey);
+    border: var(--todo-darkgrey) solid;
+    margin-bottom: 10px;
 }
