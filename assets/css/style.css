@@ -41,15 +41,14 @@
 
 #site_main
 {
-    background-color:#EC4A9D;
+    background-color: var(--todo-grey);
     padding: 5rem;
 }
 
 #container
 {
     background-color: white;
-    width: 90%
-;
+    width: 90%;
     margin: auto;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
@@ -57,29 +56,53 @@
 
 #top_container
 {
-    padding: 1rem 4rem
+    padding: 1rem 2rem
 
 }
 
 .button
 {
-    width: 4rem;
-    padding: 0.4rem 0.8rem 0.4rem;
+    box-sizing: border-box;
+    width: 5.5rem;
+    padding: 0.5rem 0.8rem 0.5rem;
     border-radius: 0.3rem;
+    border: none;
 }
 
 #add_task
 {
     background-color: var(--todo-blue);
     color: white;
-    margin-bottom: 10px;
+    border-color: var(--todo-blue) solid;
 }
 
 #add_section
 {
-    width: 5rem;
+    width: 7rem;
     background-color: white;
     color: var(--todo-darkgrey);
     border: var(--todo-darkgrey) solid;
-    margin-bottom: 10px;
+}
+
+.tag
+{
+    box-sizing: border-box;
+    width: 5.5rem;
+    padding: 0.5rem 0.8rem 0.5rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.done
+{
+    border-radius: 50%;
+    padding: 2px 5px 2px 5px;
+    color: green;
+    border-color: green;
+    background-color: white;
+}
+#editorial
+{
+    background-color: var(--todo-blue);
+    color: white;
 }
