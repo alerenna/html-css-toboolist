@@ -6,10 +6,39 @@
     --todo-orange: #FF9B00;
     --todo-pink: #EC4A9D;
     --todo-lightgreen: #A3D116;
+    --todo-grey: #F6F8F9;
 }
 
 *
 {
     margin: 0;
     padding: 0;
+}
+
+#site_header
+{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+}
+
+#logo
+{
+    width: 4rem;
+}
+
+#testo_logo
+{
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    margin-left: 0.3rem;
+    
+}
+
+#site_main
+{
+    background-color: var(--todo-grey);
 }
