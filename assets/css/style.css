@@ -8,6 +8,7 @@
     --todo-lightgreen: #A3D116;
     --todo-grey: #F6F8F9;
     --todo-darkgrey: #C4CBD0;
+    --todo-darkergrey: #434851;
 }
 
 *
@@ -93,6 +94,7 @@
 .task_title{
     margin-bottom: 1rem;
     margin-top: 2rem;
+    color: var(--todo-darkergrey);
 }
 
 ul {
